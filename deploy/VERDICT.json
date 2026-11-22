@@ -1,0 +1,11 @@
+{
+  "mission": "PyroHarmonize v9 (ARKAGNI-main) deployment audit",
+  "verdict": "NOT_DEPLOYED_READY_TO_DEPLOY",
+  "note": "Critical RIDs 001-004 are fixed and re-tested locally. No live host was available to the auditor; deployment itself is not verified.",
+  "validated_envelope": "Southern Africa pairs, delay up to the calibrated range; refusal returned for delay in (2, 3.5] and beyond",
+  "lineage": {"data_hash_begins": "37423f49d223", "config_hash_begins": "4afd3392e89d", "results_sha256_begins": "59f48604f63f", "model_sha256_begins": "d3e7645ff523"},
+  "checks_run_here": {"api_boot_seconds": 16, "api_rss_mb": 2041, "tests": "45 passed, 24 skipped", "frontend_build": "pass", "release_verifier": "pass_with_skips"},
+  "not_run_here": ["docker build", "github actions", "hugging face deploy", "cloudflare pages worker", "geostationary validation"],
+  "open_critical_rids": 0,
+  "open_major_rids": ["006 (per-region coverage not measured)"]
+}
